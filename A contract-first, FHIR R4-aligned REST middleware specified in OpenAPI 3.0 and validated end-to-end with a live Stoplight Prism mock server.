@@ -1,0 +1,11 @@
+# FHIR R4 Patient Dashboard Middleware API
+
+## Project Overview
+Clinical dashboards depend on a stable, well-defined data contract long before a real backend or hospital system is available to integrate against. This project demonstrates that workflow: an OpenAPI 3.0 specification was authored to model three core FHIR R4 resources (Patient, Observation, and Condition) and then brought to life as a fully working mock API using Stoplight Prism, so that front-end and dashboard teams can build and test against a realistic, schema-accurate contract from day one.
+
+## Skills Demonstrated
+* **Contract-first API design:** Modeling clinical resources in OpenAPI 3.0 before implementation.
+* **FHIR R4 resource modeling:** Patient, Observation, and Condition with correct nested structures.
+* **Mock-driven development:** Standing up a working API surface with Stoplight Prism / Node.js.
+* **Clinical terminology integration:** LOINC-coded category and code elements.
+* **API validation & testing:** Verifying live responses via PowerShell and browser inspection.
